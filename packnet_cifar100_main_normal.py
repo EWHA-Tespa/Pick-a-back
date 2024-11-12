@@ -21,6 +21,7 @@ import numpy as np
 import utils
 from utils import Optimizers
 from utils.packnet_manager import Manager
+from result_logging import save_results_to_json, save_results_to_csv # log 저장하는 부분
 import utils.cifar100_dataset as dataset
 import packnet_models
 
@@ -311,6 +312,8 @@ def main():
         manager.one_shot_prune(args.one_shot_prune_perc)
     elif args.mode == 'finetune':
         manager.pruner.make_finetuning_mask()
+    
+    results = []
 
     for epoch_idx in range(start_epoch, args.epochs):
         avg_train_acc = manager.train(optimizers, epoch_idx, curr_lrs)
@@ -327,6 +330,18 @@ def main():
                 for param_group in optimizers[0].param_groups:
                     param_group['lr'] *= 0.1
                 curr_lrs[0] = param_group['lr']
+        
+        epoch_result = {
+            "epoch": epoch_idx + 1,
+            "train_loss": manager.train_loss,      
+            "val_loss": manager.val_loss,           
+            "accuracy": avg_val_acc,
+            "lr": curr_lrs[0],
+            "sparsity": manager.sparsity,           # sparsity 값 (정의 필요)
+            "task1_ratio": manager.task1_ratio,     # task1 ratio 값 (정의 필요)
+            "zero_ratio": manager.zero_ratio        # zero ratio 값 (정의 필요)
+        }
+        results.append(epoch_result)
 
 
     if args.save_folder is not None:
@@ -358,6 +373,7 @@ def main():
             print('Pruning too much!')
 
     print('-' * 16)
+    save_results_to_csv(results, f"train_log/baseline_results.csv")
 
 if __name__ == '__main__':
     main()

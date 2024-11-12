@@ -14,13 +14,20 @@ class Manager(object):
     """Handles training and pruning."""
 
     def __init__(self, args, model, shared_layer_info, masks, train_loader, val_loader):
-        self.args  = args
+        self.args = args
         self.model = model
         self.shared_layer_info = shared_layer_info
-        self.inference_dataset_idx = self.model.datasets.index(args.dataset) + 1 ##### Jinee ##### self.inference_dataset_idx = self.model.module.datasets.index(args.dataset) + 1
+        self.inference_dataset_idx = self.model.datasets.index(args.dataset) + 1
         self.pruner = SparsePruner(self.model, masks, self.args, None, None, self.inference_dataset_idx)
         self.train_loader = train_loader
-        self.val_loader   = val_loader
+        self.val_loader = val_loader
+
+        # Loss and Accuracy attributes
+        self.train_loss = None
+        self.val_loss = None
+        self.sparsity = None
+        self.task1_ratio = None
+        self.zero_ratio = None
 
         if args.dataset == 'face_verification':
             self.criterion = AngleLoss()
@@ -36,7 +43,7 @@ class Manager(object):
         # Set model to training mode
         self.model.train()
 
-        train_loss     = Metric('train_loss')
+        train_loss = Metric('train_loss')
         train_accuracy = Metric('train_accuracy')
 
         with tqdm(total=len(self.train_loader),
@@ -48,9 +55,7 @@ class Manager(object):
                     data, target = data.cuda(), target.cuda()
 
                 optimizers.zero_grad()
-                # Do forward-backward.
                 output = self.model(data)
-
                 num = data.size(0)
                 if self.args.dataset != 'face_verification':
                     train_accuracy.update(classification_accuracy(output, target), num)
@@ -59,13 +64,8 @@ class Manager(object):
                 train_loss.update(loss, num)
                 loss.backward()
 
-                # Set fixed param grads to 0.
                 self.pruner.do_weight_decay_and_make_grads_zero()
-
-                # Gradient is applied across all ranks
                 optimizers.step()
-
-                # Set pruned weights to 0.
                 self.pruner.make_pruned_zero()
 
                 t.set_postfix({'loss': train_loss.avg.item(),
@@ -73,9 +73,13 @@ class Manager(object):
                                'lr': curr_lrs[0],
                                'sparsity': self.pruner.calculate_sparsity()})
                 t.update(1)
+
+        # Update attributes
+        self.train_loss = train_loss.avg.item()
+        self.sparsity = self.pruner.calculate_sparsity()
+
         return train_accuracy.avg.item()
 
-    #{{{ Evaluate classification
     def validate(self, epoch_idx, biases=None):
         """Performs evaluation."""
         self.pruner.apply_mask()
@@ -102,6 +106,12 @@ class Manager(object):
                                    'task{} ratio'.format(self.inference_dataset_idx): self.pruner.calculate_curr_task_ratio(),
                                    'zero ratio': self.pruner.calculate_zero_ratio()})
                     t.update(1)
+
+        # Update attributes
+        self.val_loss = val_loss.avg.item()
+        self.task1_ratio = self.pruner.calculate_curr_task_ratio()
+        self.zero_ratio = self.pruner.calculate_zero_ratio()
+
         return val_accuracy.avg.item()
     #}}}
 
