@@ -55,7 +55,11 @@ class Manager(object):
                     data, target = data.cuda(), target.cuda()
 
                 optimizers.zero_grad()
+
+                # Do forward-backward.
+
                 output = self.model(data)
+
                 num = data.size(0)
                 if self.args.dataset != 'face_verification':
                     train_accuracy.update(classification_accuracy(output, target), num)
@@ -64,8 +68,15 @@ class Manager(object):
                 train_loss.update(loss, num)
                 loss.backward()
 
+                # Set fixed param grads to 0.
+
                 self.pruner.do_weight_decay_and_make_grads_zero()
+
+                # Gradient is applied across all ranks
+                
                 optimizers.step()
+
+                # Set pruned weights to 0.
                 self.pruner.make_pruned_zero()
 
                 t.set_postfix({'loss': train_loss.avg.item(),
@@ -79,7 +90,8 @@ class Manager(object):
         self.sparsity = self.pruner.calculate_sparsity()
 
         return train_accuracy.avg.item()
-
+    
+    #{{{ Evaluate classification
     def validate(self, epoch_idx, biases=None):
         """Performs evaluation."""
         self.pruner.apply_mask()
