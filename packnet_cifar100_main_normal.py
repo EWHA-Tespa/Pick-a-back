@@ -373,7 +373,7 @@ def main():
             print('Pruning too much!')
 
     print('-' * 16)
-    save_results_to_csv(results, f"train_log/baseline_results.csv")
+    save_results_to_csv(results, f"train_log/baseline_results_{args.dataset}.csv")
 
 if __name__ == '__main__':
     main()
