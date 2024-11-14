@@ -80,7 +80,13 @@ epsilon = 0.1
 max_iterations = 100
 ################################
 
-target_id = 14
+# target_id = 14
+target_id = int(os.getenv("TARGET_ID"))
+
+if target_id is None:
+    print("Error: TASK_ID is not defined. Please set TASK_ID in the environment before running this script.")
+    sys.exit(1)
+
 
 ddvcc_list = []
 ddvec_list = []
@@ -422,6 +428,9 @@ for task_id in range(1, 21):
     ddv_distance = compute_sim_cos(ddv1, ddv2)
     print('DDV euc-cos [%d => %d] %.5f'%(task_id, target_id, ddv_distance))
     ddvec_list.append(ddv_distance)
+
+with open("find_backbone_result.csv", "a") as f:
+    f.write(f"{target_id},{ddvec_list.index(max(ddvec_list))+1}\n")
 
 print('Selected backbone for target '+str(target_id)+' = (euc) '+str(ddvec_list.index(max(ddvec_list))+1))
 # print('Selected backbone for target '+str(target_id)+' = (cos) '+str(ddvcc_list.index(max(ddvcc_list))+1))
