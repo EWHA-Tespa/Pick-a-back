@@ -18,7 +18,7 @@ val_pattern = r"In validate\(\)-> Val Ep. #(\d+) loss: ([\d.]+), accuracy: ([\d.
 
 for dataset in datasets:
     log_path = os.path.join(base_dir, dataset, 'train.log')
-    csv_path = os.path.join(base_dir, dataset, 'train.csv')
+    csv_path = os.path.join(base_dir, dataset, 'train_converted.csv')
     
     if not os.path.exists(log_path):
         print(f"Log file not found for dataset: {dataset}")
@@ -50,7 +50,11 @@ for dataset in datasets:
                 sparsity = float(val_match.group(4))
                 data.append([epoch, 'val', None, accuracy, loss, sparsity])
 
+            else:
+                # 패턴에 맞지 않는 라인 그대로 추가
+                data.append([None, 'info', None, None, None, None, line.strip()])
+
     # DataFrame으로 변환하여 CSV 파일로 저장
-    df = pd.DataFrame(data, columns=['Epoch', 'Mode', 'Learning Rate', 'Accuracy', 'Loss', 'Sparsity'])
+    df = pd.DataFrame(data, columns=['Epoch', 'Mode', 'Learning Rate', 'Accuracy', 'Loss', 'Sparsity', 'Info'])
     df.to_csv(csv_path, index=False)
     print(f"Converted {log_path} to {csv_path}")
