@@ -82,11 +82,20 @@ max_iterations = 100
 
 # target_id = 14
 target_id = int(os.getenv("TARGET_ID"))
+log_file = os.getenv('LOG_FILE')
 
 if target_id is None:
     print("Error: TASK_ID is not defined. Please set TASK_ID in the environment before running this script.")
     sys.exit(1)
 
+if log_file is None:
+    print("Error: LOG_FILE is not defined. Please set LOG_FILE in the environment before running this script.")
+    sys.exit(1)
+
+if not os.path.exists(log_file):
+    with open(log_file, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["task_id", "backbone", "DDV cos-cos", "DDV euc-cos"])
 
 ddvcc_list = []
 ddvec_list = []
@@ -419,15 +428,19 @@ for task_id in range(1, 21):
     
     # DDV-CC
     ddv1, ddv2 = compute_ddv_cos(profiling_inputs)
-    ddv_distance = compute_sim_cos(ddv1, ddv2)
-    print('DDV cos-cos [%d => %d] %.5f'%(task_id, target_id, ddv_distance))
-    ddvcc_list.append(ddv_distance)
+    ddv_cos_distance = compute_sim_cos(ddv1, ddv2)
+    print('DDV cos-cos [%d => %d] %.5f'%(task_id, target_id, ddv_cos_distance))
+    ddvcc_list.append(ddv_cos_distance)
 
     # DDV-EC
     ddv1, ddv2 = compute_ddv_euc(profiling_inputs)
-    ddv_distance = compute_sim_cos(ddv1, ddv2)
-    print('DDV euc-cos [%d => %d] %.5f'%(task_id, target_id, ddv_distance))
-    ddvec_list.append(ddv_distance)
+    ddv_euc_distance = compute_sim_cos(ddv1, ddv2)
+    print('DDV euc-cos [%d => %d] %.5f'%(task_id, target_id, ddv_euc_distance))
+    ddvec_list.append(ddv_euc_distance)
+
+    with open(log_file, "a", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow([target_id, task_id, ddv_cos_distance, ddv_euc_distance])
 
 with open("find_backbone_result.csv", "a") as f:
     f.write(f"{target_id},{ddvec_list.index(max(ddvec_list))+1}\n")
