@@ -1,0 +1,204 @@
+2024-11-15 03:17:18,296 - root - INFO - Finetune stage...
+2024-11-15 03:17:18,817 - root - INFO - In train()-> Train Ep. #1 loss: 1.609, accuracy: 22.08, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:18,944 - root - INFO - In validate()-> Val Ep. #1 loss: 1.602, accuracy: 35.00, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:19,263 - root - INFO - In train()-> Train Ep. #2 loss: 1.527, accuracy: 30.64, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:19,381 - root - INFO - In validate()-> Val Ep. #2 loss: 1.440, accuracy: 41.20, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:19,737 - root - INFO - In train()-> Train Ep. #3 loss: 1.451, accuracy: 33.48, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:19,842 - root - INFO - In validate()-> Val Ep. #3 loss: 1.410, accuracy: 34.20, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:20,181 - root - INFO - In train()-> Train Ep. #4 loss: 1.428, accuracy: 33.56, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:20,293 - root - INFO - In validate()-> Val Ep. #4 loss: 1.375, accuracy: 35.00, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:20,617 - root - INFO - In train()-> Train Ep. #5 loss: 1.394, accuracy: 36.16, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:20,730 - root - INFO - In validate()-> Val Ep. #5 loss: 1.344, accuracy: 41.20, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:21,060 - root - INFO - In train()-> Train Ep. #6 loss: 1.382, accuracy: 40.00, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:21,178 - root - INFO - In validate()-> Val Ep. #6 loss: 1.300, accuracy: 45.40, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:21,485 - root - INFO - In train()-> Train Ep. #7 loss: 1.332, accuracy: 43.08, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:21,596 - root - INFO - In validate()-> Val Ep. #7 loss: 1.263, accuracy: 47.80, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:21,885 - root - INFO - In train()-> Train Ep. #8 loss: 1.283, accuracy: 45.92, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:21,996 - root - INFO - In validate()-> Val Ep. #8 loss: 1.236, accuracy: 48.40, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:22,322 - root - INFO - In train()-> Train Ep. #9 loss: 1.234, accuracy: 49.76, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:22,435 - root - INFO - In validate()-> Val Ep. #9 loss: 1.193, accuracy: 52.40, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:22,752 - root - INFO - In train()-> Train Ep. #10 loss: 1.204, accuracy: 51.44, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:22,868 - root - INFO - In validate()-> Val Ep. #10 loss: 1.127, accuracy: 57.00, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:23,221 - root - INFO - In train()-> Train Ep. #11 loss: 1.176, accuracy: 52.88, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:23,343 - root - INFO - In validate()-> Val Ep. #11 loss: 1.109, accuracy: 55.20, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:23,865 - root - INFO - In train()-> Train Ep. #12 loss: 1.153, accuracy: 54.40, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:24,062 - root - INFO - In validate()-> Val Ep. #12 loss: 1.068, accuracy: 58.40, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:24,625 - root - INFO - In train()-> Train Ep. #13 loss: 1.124, accuracy: 55.48, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:24,745 - root - INFO - In validate()-> Val Ep. #13 loss: 1.028, accuracy: 60.40, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:25,092 - root - INFO - In train()-> Train Ep. #14 loss: 1.118, accuracy: 54.60, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:25,209 - root - INFO - In validate()-> Val Ep. #14 loss: 0.986, accuracy: 61.20, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:25,530 - root - INFO - In train()-> Train Ep. #15 loss: 1.083, accuracy: 57.68, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:25,636 - root - INFO - In validate()-> Val Ep. #15 loss: 1.025, accuracy: 62.60, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:25,988 - root - INFO - In train()-> Train Ep. #16 loss: 1.066, accuracy: 58.04, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:26,101 - root - INFO - In validate()-> Val Ep. #16 loss: 0.997, accuracy: 61.80, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:26,403 - root - INFO - In train()-> Train Ep. #17 loss: 1.063, accuracy: 58.00, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:26,519 - root - INFO - In validate()-> Val Ep. #17 loss: 1.094, accuracy: 59.60, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:26,827 - root - INFO - In train()-> Train Ep. #18 loss: 1.076, accuracy: 58.12, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:26,940 - root - INFO - In validate()-> Val Ep. #18 loss: 0.950, accuracy: 64.40, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:27,263 - root - INFO - In train()-> Train Ep. #19 loss: 1.028, accuracy: 60.08, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:27,393 - root - INFO - In validate()-> Val Ep. #19 loss: 0.960, accuracy: 61.40, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:27,714 - root - INFO - In train()-> Train Ep. #20 loss: 1.009, accuracy: 61.44, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:27,823 - root - INFO - In validate()-> Val Ep. #20 loss: 0.908, accuracy: 63.00, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:28,180 - root - INFO - In train()-> Train Ep. #21 loss: 0.991, accuracy: 61.36, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:28,304 - root - INFO - In validate()-> Val Ep. #21 loss: 0.956, accuracy: 65.00, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:28,624 - root - INFO - In train()-> Train Ep. #22 loss: 0.996, accuracy: 61.16, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:28,733 - root - INFO - In validate()-> Val Ep. #22 loss: 0.963, accuracy: 64.80, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:29,051 - root - INFO - In train()-> Train Ep. #23 loss: 0.989, accuracy: 61.84, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:29,161 - root - INFO - In validate()-> Val Ep. #23 loss: 0.954, accuracy: 63.80, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:29,463 - root - INFO - In train()-> Train Ep. #24 loss: 0.972, accuracy: 61.92, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:29,581 - root - INFO - In validate()-> Val Ep. #24 loss: 0.899, accuracy: 65.20, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:29,913 - root - INFO - In train()-> Train Ep. #25 loss: 0.962, accuracy: 62.68, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:30,019 - root - INFO - In validate()-> Val Ep. #25 loss: 0.865, accuracy: 68.00, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:30,330 - root - INFO - In train()-> Train Ep. #26 loss: 0.957, accuracy: 61.92, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:30,452 - root - INFO - In validate()-> Val Ep. #26 loss: 0.897, accuracy: 64.80, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:30,755 - root - INFO - In train()-> Train Ep. #27 loss: 0.933, accuracy: 64.36, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:30,874 - root - INFO - In validate()-> Val Ep. #27 loss: 0.871, accuracy: 69.20, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:31,227 - root - INFO - In train()-> Train Ep. #28 loss: 0.932, accuracy: 64.72, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:31,338 - root - INFO - In validate()-> Val Ep. #28 loss: 0.838, accuracy: 70.20, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:31,689 - root - INFO - In train()-> Train Ep. #29 loss: 0.914, accuracy: 65.08, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:31,800 - root - INFO - In validate()-> Val Ep. #29 loss: 0.827, accuracy: 70.80, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:32,122 - root - INFO - In train()-> Train Ep. #30 loss: 0.885, accuracy: 65.20, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:32,242 - root - INFO - In validate()-> Val Ep. #30 loss: 0.842, accuracy: 68.80, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:32,556 - root - INFO - In train()-> Train Ep. #31 loss: 0.883, accuracy: 65.40, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:32,673 - root - INFO - In validate()-> Val Ep. #31 loss: 0.848, accuracy: 66.80, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:33,002 - root - INFO - In train()-> Train Ep. #32 loss: 0.889, accuracy: 65.44, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:33,111 - root - INFO - In validate()-> Val Ep. #32 loss: 0.889, accuracy: 67.60, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:33,417 - root - INFO - In train()-> Train Ep. #33 loss: 0.884, accuracy: 65.00, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:33,526 - root - INFO - In validate()-> Val Ep. #33 loss: 0.808, accuracy: 71.00, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:33,820 - root - INFO - In train()-> Train Ep. #34 loss: 0.852, accuracy: 68.24, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:33,931 - root - INFO - In validate()-> Val Ep. #34 loss: 0.836, accuracy: 70.40, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:34,280 - root - INFO - In train()-> Train Ep. #35 loss: 0.871, accuracy: 67.44, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:34,390 - root - INFO - In validate()-> Val Ep. #35 loss: 0.813, accuracy: 69.40, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:34,715 - root - INFO - In train()-> Train Ep. #36 loss: 0.834, accuracy: 68.40, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:34,825 - root - INFO - In validate()-> Val Ep. #36 loss: 0.867, accuracy: 71.00, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:35,141 - root - INFO - In train()-> Train Ep. #37 loss: 0.850, accuracy: 67.96, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:35,249 - root - INFO - In validate()-> Val Ep. #37 loss: 0.885, accuracy: 67.60, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:35,582 - root - INFO - In train()-> Train Ep. #38 loss: 0.847, accuracy: 68.60, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:35,691 - root - INFO - In validate()-> Val Ep. #38 loss: 0.792, accuracy: 71.80, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:35,994 - root - INFO - In train()-> Train Ep. #39 loss: 0.809, accuracy: 69.56, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:36,104 - root - INFO - In validate()-> Val Ep. #39 loss: 0.811, accuracy: 70.40, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:36,425 - root - INFO - In train()-> Train Ep. #40 loss: 0.802, accuracy: 69.60, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:36,539 - root - INFO - In validate()-> Val Ep. #40 loss: 0.980, accuracy: 65.20, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:36,885 - root - INFO - In train()-> Train Ep. #41 loss: 0.798, accuracy: 70.00, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:36,993 - root - INFO - In validate()-> Val Ep. #41 loss: 0.783, accuracy: 72.00, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:37,326 - root - INFO - In train()-> Train Ep. #42 loss: 0.800, accuracy: 69.84, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:37,438 - root - INFO - In validate()-> Val Ep. #42 loss: 0.805, accuracy: 69.80, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:37,757 - root - INFO - In train()-> Train Ep. #43 loss: 0.797, accuracy: 69.24, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:37,864 - root - INFO - In validate()-> Val Ep. #43 loss: 0.875, accuracy: 68.20, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:38,169 - root - INFO - In train()-> Train Ep. #44 loss: 0.795, accuracy: 70.28, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:38,283 - root - INFO - In validate()-> Val Ep. #44 loss: 0.805, accuracy: 73.20, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:38,599 - root - INFO - In train()-> Train Ep. #45 loss: 0.746, accuracy: 71.28, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:38,710 - root - INFO - In validate()-> Val Ep. #45 loss: 0.790, accuracy: 73.80, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:39,030 - root - INFO - In train()-> Train Ep. #46 loss: 0.762, accuracy: 70.88, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:39,149 - root - INFO - In validate()-> Val Ep. #46 loss: 0.792, accuracy: 73.00, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:39,459 - root - INFO - In train()-> Train Ep. #47 loss: 0.736, accuracy: 72.16, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:39,568 - root - INFO - In validate()-> Val Ep. #47 loss: 0.787, accuracy: 72.60, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:39,892 - root - INFO - In train()-> Train Ep. #48 loss: 0.747, accuracy: 71.72, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:40,006 - root - INFO - In validate()-> Val Ep. #48 loss: 0.758, accuracy: 72.60, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:40,378 - root - INFO - In train()-> Train Ep. #49 loss: 0.734, accuracy: 72.84, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:40,487 - root - INFO - In validate()-> Val Ep. #49 loss: 0.797, accuracy: 70.20, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:40,831 - root - INFO - In train()-> Train Ep. #50 loss: 0.738, accuracy: 71.92, lr: 0.01, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:40,952 - root - INFO - In validate()-> Val Ep. #50 loss: 0.764, accuracy: 72.40, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:41,264 - root - INFO - In train()-> Train Ep. #51 loss: 0.680, accuracy: 74.52, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:41,389 - root - INFO - In validate()-> Val Ep. #51 loss: 0.737, accuracy: 73.60, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:41,697 - root - INFO - In train()-> Train Ep. #52 loss: 0.622, accuracy: 76.28, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:41,813 - root - INFO - In validate()-> Val Ep. #52 loss: 0.734, accuracy: 74.80, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:42,119 - root - INFO - In train()-> Train Ep. #53 loss: 0.639, accuracy: 75.56, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:42,242 - root - INFO - In validate()-> Val Ep. #53 loss: 0.736, accuracy: 74.80, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:42,564 - root - INFO - In train()-> Train Ep. #54 loss: 0.633, accuracy: 75.88, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:42,707 - root - INFO - In validate()-> Val Ep. #54 loss: 0.737, accuracy: 73.80, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:43,014 - root - INFO - In train()-> Train Ep. #55 loss: 0.624, accuracy: 76.52, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:43,137 - root - INFO - In validate()-> Val Ep. #55 loss: 0.742, accuracy: 73.60, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:43,453 - root - INFO - In train()-> Train Ep. #56 loss: 0.606, accuracy: 77.16, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:43,574 - root - INFO - In validate()-> Val Ep. #56 loss: 0.739, accuracy: 74.40, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:43,907 - root - INFO - In train()-> Train Ep. #57 loss: 0.604, accuracy: 77.24, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:44,024 - root - INFO - In validate()-> Val Ep. #57 loss: 0.752, accuracy: 73.80, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:44,320 - root - INFO - In train()-> Train Ep. #58 loss: 0.606, accuracy: 77.80, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:44,427 - root - INFO - In validate()-> Val Ep. #58 loss: 0.741, accuracy: 73.00, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:44,719 - root - INFO - In train()-> Train Ep. #59 loss: 0.610, accuracy: 76.84, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:44,834 - root - INFO - In validate()-> Val Ep. #59 loss: 0.744, accuracy: 73.20, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:45,161 - root - INFO - In train()-> Train Ep. #60 loss: 0.600, accuracy: 78.00, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:45,277 - root - INFO - In validate()-> Val Ep. #60 loss: 0.758, accuracy: 74.00, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:45,573 - root - INFO - In train()-> Train Ep. #61 loss: 0.605, accuracy: 77.56, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:45,685 - root - INFO - In validate()-> Val Ep. #61 loss: 0.756, accuracy: 73.60, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:46,017 - root - INFO - In train()-> Train Ep. #62 loss: 0.602, accuracy: 77.12, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:46,131 - root - INFO - In validate()-> Val Ep. #62 loss: 0.738, accuracy: 74.20, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:46,498 - root - INFO - In train()-> Train Ep. #63 loss: 0.584, accuracy: 78.12, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:46,604 - root - INFO - In validate()-> Val Ep. #63 loss: 0.748, accuracy: 74.20, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:46,928 - root - INFO - In train()-> Train Ep. #64 loss: 0.577, accuracy: 77.84, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:47,042 - root - INFO - In validate()-> Val Ep. #64 loss: 0.742, accuracy: 74.20, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:47,374 - root - INFO - In train()-> Train Ep. #65 loss: 0.591, accuracy: 78.12, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:47,490 - root - INFO - In validate()-> Val Ep. #65 loss: 0.745, accuracy: 74.60, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:47,813 - root - INFO - In train()-> Train Ep. #66 loss: 0.588, accuracy: 78.40, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:47,930 - root - INFO - In validate()-> Val Ep. #66 loss: 0.743, accuracy: 74.60, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:48,247 - root - INFO - In train()-> Train Ep. #67 loss: 0.579, accuracy: 79.08, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:48,357 - root - INFO - In validate()-> Val Ep. #67 loss: 0.754, accuracy: 73.60, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:48,668 - root - INFO - In train()-> Train Ep. #68 loss: 0.580, accuracy: 78.16, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:48,783 - root - INFO - In validate()-> Val Ep. #68 loss: 0.744, accuracy: 73.20, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:49,126 - root - INFO - In train()-> Train Ep. #69 loss: 0.581, accuracy: 78.60, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:49,261 - root - INFO - In validate()-> Val Ep. #69 loss: 0.748, accuracy: 73.20, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:49,613 - root - INFO - In train()-> Train Ep. #70 loss: 0.568, accuracy: 78.76, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:49,726 - root - INFO - In validate()-> Val Ep. #70 loss: 0.742, accuracy: 74.00, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:50,056 - root - INFO - In train()-> Train Ep. #71 loss: 0.578, accuracy: 79.20, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:50,163 - root - INFO - In validate()-> Val Ep. #71 loss: 0.736, accuracy: 74.40, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:50,495 - root - INFO - In train()-> Train Ep. #72 loss: 0.564, accuracy: 78.56, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:50,612 - root - INFO - In validate()-> Val Ep. #72 loss: 0.752, accuracy: 73.80, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:50,917 - root - INFO - In train()-> Train Ep. #73 loss: 0.581, accuracy: 78.48, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:51,025 - root - INFO - In validate()-> Val Ep. #73 loss: 0.750, accuracy: 74.20, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:51,356 - root - INFO - In train()-> Train Ep. #74 loss: 0.563, accuracy: 79.12, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:51,465 - root - INFO - In validate()-> Val Ep. #74 loss: 0.748, accuracy: 74.60, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:51,772 - root - INFO - In train()-> Train Ep. #75 loss: 0.563, accuracy: 78.60, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:51,883 - root - INFO - In validate()-> Val Ep. #75 loss: 0.743, accuracy: 74.80, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:52,207 - root - INFO - In train()-> Train Ep. #76 loss: 0.556, accuracy: 78.80, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:52,333 - root - INFO - In validate()-> Val Ep. #76 loss: 0.748, accuracy: 74.80, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:52,713 - root - INFO - In train()-> Train Ep. #77 loss: 0.551, accuracy: 79.56, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:52,836 - root - INFO - In validate()-> Val Ep. #77 loss: 0.756, accuracy: 74.60, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:53,177 - root - INFO - In train()-> Train Ep. #78 loss: 0.568, accuracy: 79.28, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:53,305 - root - INFO - In validate()-> Val Ep. #78 loss: 0.743, accuracy: 74.20, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:53,616 - root - INFO - In train()-> Train Ep. #79 loss: 0.564, accuracy: 79.20, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:53,728 - root - INFO - In validate()-> Val Ep. #79 loss: 0.751, accuracy: 73.80, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:54,038 - root - INFO - In train()-> Train Ep. #80 loss: 0.570, accuracy: 78.48, lr: 0.001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:54,153 - root - INFO - In validate()-> Val Ep. #80 loss: 0.752, accuracy: 74.60, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:54,463 - root - INFO - In train()-> Train Ep. #81 loss: 0.554, accuracy: 79.52, lr: 0.0001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:54,580 - root - INFO - In validate()-> Val Ep. #81 loss: 0.737, accuracy: 75.00, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:54,881 - root - INFO - In train()-> Train Ep. #82 loss: 0.547, accuracy: 79.44, lr: 0.0001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:54,990 - root - INFO - In validate()-> Val Ep. #82 loss: 0.739, accuracy: 75.20, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:55,306 - root - INFO - In train()-> Train Ep. #83 loss: 0.544, accuracy: 79.72, lr: 0.0001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:55,417 - root - INFO - In validate()-> Val Ep. #83 loss: 0.752, accuracy: 75.60, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:55,727 - root - INFO - In train()-> Train Ep. #84 loss: 0.533, accuracy: 79.80, lr: 0.0001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:55,841 - root - INFO - In validate()-> Val Ep. #84 loss: 0.743, accuracy: 75.80, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:56,159 - root - INFO - In train()-> Train Ep. #85 loss: 0.548, accuracy: 79.96, lr: 0.0001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:56,265 - root - INFO - In validate()-> Val Ep. #85 loss: 0.744, accuracy: 74.60, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:56,584 - root - INFO - In train()-> Train Ep. #86 loss: 0.538, accuracy: 80.44, lr: 0.0001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:56,690 - root - INFO - In validate()-> Val Ep. #86 loss: 0.742, accuracy: 75.20, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:57,020 - root - INFO - In train()-> Train Ep. #87 loss: 0.550, accuracy: 79.80, lr: 0.0001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:57,133 - root - INFO - In validate()-> Val Ep. #87 loss: 0.743, accuracy: 74.60, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:57,437 - root - INFO - In train()-> Train Ep. #88 loss: 0.544, accuracy: 80.60, lr: 0.0001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:57,572 - root - INFO - In validate()-> Val Ep. #88 loss: 0.737, accuracy: 75.20, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:57,892 - root - INFO - In train()-> Train Ep. #89 loss: 0.529, accuracy: 81.00, lr: 0.0001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:58,010 - root - INFO - In validate()-> Val Ep. #89 loss: 0.750, accuracy: 74.80, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:58,350 - root - INFO - In train()-> Train Ep. #90 loss: 0.544, accuracy: 79.36, lr: 0.0001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:58,463 - root - INFO - In validate()-> Val Ep. #90 loss: 0.729, accuracy: 75.80, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:58,789 - root - INFO - In train()-> Train Ep. #91 loss: 0.541, accuracy: 79.76, lr: 0.0001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:58,914 - root - INFO - In validate()-> Val Ep. #91 loss: 0.740, accuracy: 75.20, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:59,248 - root - INFO - In train()-> Train Ep. #92 loss: 0.541, accuracy: 80.64, lr: 0.0001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:59,369 - root - INFO - In validate()-> Val Ep. #92 loss: 0.746, accuracy: 75.40, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:17:59,660 - root - INFO - In train()-> Train Ep. #93 loss: 0.536, accuracy: 80.72, lr: 0.0001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:17:59,769 - root - INFO - In validate()-> Val Ep. #93 loss: 0.744, accuracy: 75.00, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:18:00,092 - root - INFO - In train()-> Train Ep. #94 loss: 0.527, accuracy: 80.36, lr: 0.0001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:18:00,203 - root - INFO - In validate()-> Val Ep. #94 loss: 0.751, accuracy: 74.60, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:18:00,539 - root - INFO - In train()-> Train Ep. #95 loss: 0.540, accuracy: 80.04, lr: 0.0001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:18:00,646 - root - INFO - In validate()-> Val Ep. #95 loss: 0.755, accuracy: 75.00, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:18:00,944 - root - INFO - In train()-> Train Ep. #96 loss: 0.544, accuracy: 79.68, lr: 0.0001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:18:01,066 - root - INFO - In validate()-> Val Ep. #96 loss: 0.737, accuracy: 75.40, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:18:01,369 - root - INFO - In train()-> Train Ep. #97 loss: 0.540, accuracy: 79.72, lr: 0.0001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:18:01,481 - root - INFO - In validate()-> Val Ep. #97 loss: 0.736, accuracy: 74.80, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:18:01,817 - root - INFO - In train()-> Train Ep. #98 loss: 0.536, accuracy: 79.76, lr: 0.0001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:18:01,925 - root - INFO - In validate()-> Val Ep. #98 loss: 0.758, accuracy: 75.60, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:18:02,221 - root - INFO - In train()-> Train Ep. #99 loss: 0.519, accuracy: 81.84, lr: 0.0001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:18:02,341 - root - INFO - In validate()-> Val Ep. #99 loss: 0.744, accuracy: 75.00, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:18:02,662 - root - INFO - In train()-> Train Ep. #100 loss: 0.528, accuracy: 79.84, lr: 0.0001, sparsity: 0.000, network_width_mpl: 1.4142135623730951
+2024-11-15 03:18:02,790 - root - INFO - In validate()-> Val Ep. #100 loss: 0.737, accuracy: 74.80, sparsity: 0.000, task1 ratio: 2.000, zero ratio: 0.000, mpl: 1.4142135623730951
+2024-11-15 03:18:02,792 - root - INFO - ----------------
+2024-11-15 03:18:02,793 - root - INFO - It's time to expand the Network
+2024-11-15 03:18:02,793 - root - INFO - Auto expand network
